@@ -10,3 +10,5 @@ mysqlclient==2.1.0
 python-dotenv==0.20.0
 Werkzeug==2.1.1
 zipp==3.8.0
+cryptography
+Flask-Cors==3.0.10

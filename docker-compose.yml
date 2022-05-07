@@ -10,6 +10,9 @@ services:
       volumes:
          - ./frontend:/app
          - /app/node_modules
+      depends_on:
+         - backend
+      command: ["npm", "start"]
    backend:
       build:
          context: ./backend

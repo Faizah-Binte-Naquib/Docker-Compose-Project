@@ -4,8 +4,6 @@ FROM python:3
 # switch working directory
 WORKDIR /app
 
-RUN apk add gcc musl-dev python3-dev libffi-dev openssl-dev
-
 ENV FLASK_APP=app.py 
 
 # copy the requirements file into the image
